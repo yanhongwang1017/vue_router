@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    width: 100%;
+    overflow-x: hidden;
+}
+#root{
+    width: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+section{
+    width: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.navs{
+    width: 100%;
+    height: 42px;
+    margin: 0 auto;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.imgBox{
+    width: 100%;
+    position: absolute;
+    left:0;right:0;
+    margin-left: auto;
+    margin-right: auto;
+    top:50px;
+}
+.imgBox h1{
+    text-align: center;
+    font-weight: 400;
+}
+.imgBox img{
+    width: 50%;
+    margin-left: 400px;
+}
+.router-link-active{
+    color: #000;
+}
+.v-enter{
+    transform: translate(100%,0);
+}
+.v-leave-to{
+    transform: translate(-100%,0);
+}
+.v-enter-active,.v-leave-active{
+    transition:1s;
+}
+.opac-enter{
+    opacity: 0;
+}
+.opac-leave-to{
+    opacity: 0;
+}
+.opac-enter-active,.opac-leave-active{
+    transition:.5s;
+}
+.nav-box{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+}
+.mui-table-view{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:42px;
+}
+section{
+    width: 100%;
+}
+.left{
+    width: 20%;
+    height: 90vh;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    left: 0;
+    top:42px;
+}
+.right{
+    width: 80%;
+    height: 90vh;
+    overflow-y: scroll;
+    position: absolute;
+    right: 0;
+    top:42px;
+}
+.abc{
+    height: 500px;
+    font-size: 36px;
+    color: #0C0C0C;
+}
+.left ul li{
+    margin-top: 20px;
+}
+.left ul li a{
+    font-size: 18px;
+    margin-left: 50px;
+}
+.content{
+    width: 100%;
+    padding-top: 42px;
+}
+.content h1{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.word{
+    width: 50%;
+    margin: 0 auto;
+}
+.word p{
+    color: #555555;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 36px;
+}
